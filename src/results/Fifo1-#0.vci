@@ -1,0 +1,131 @@
+file 14996298 1611845914                                        
+version 2
+run Fifo1-0-20210128-15:53:25-60161
+attr configname Fifo1
+attr datetime 20210128-15:53:25
+attr experiment Fifo1
+attr inifile case3Scenario.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network Case3Scenario
+attr processid 60161
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param **.linkProtocol 0
+param **.linkPacketLossProbability 0
+param **.meanPacketLength 1000
+param **.lambda 2
+param **.linkCapability 1000000
+param **.linkdelay "0 s"
+
+vector 0 Case3Scenario.networkNode1.trafficExternalSource randomDepartureTimeVector ETV
+vector 1 Case3Scenario.networkNode1.trafficMuxModule[0] qlen:vector ETV
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+vector 2 Case3Scenario.networkNode1.trafficMuxModule[1] qlen:vector ETV
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+vector 3 Case3Scenario.networkNode2.trafficExternalSource randomDepartureTimeVector ETV
+vector 4 Case3Scenario.networkNode2.trafficMuxModule[0] qlen:vector ETV
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+vector 5 Case3Scenario.networkNode2.trafficMuxModule[1] qlen:vector ETV
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+vector 6 Case3Scenario.networkNode5.trafficExternalSource randomDepartureTimeVector ETV
+vector 7 Case3Scenario.networkNode5.trafficMuxModule[0] qlen:vector ETV
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+vector 8 Case3Scenario.networkNode5.trafficMuxModule[1] qlen:vector ETV
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+vector 9 Case3Scenario.networkNode1.trafficExternalSource packetLenVector ETV
+vector 10 Case3Scenario.networkNode1.trafficRoutingModule gateIDVector ETV
+vector 11 Case3Scenario.networkNode1.trafficRoutingModule randomNumberVector ETV
+vector 12 Case3Scenario.networkNode1.trafficMuxModule[0] queueingTime:vector ETV
+attr interpolationmode none
+attr title "queueing time at dequeue, vector"
+attr unit s
+vector 13 Case3Scenario.networkNode5.trafficRoutingModule[1] gateIDVector ETV
+vector 14 Case3Scenario.networkNode5.trafficRoutingModule[1] randomNumberVector ETV
+vector 15 Case3Scenario.networkNode5.trafficMuxModule[1] queueingTime:vector ETV
+attr interpolationmode none
+attr title "queueing time at dequeue, vector"
+attr unit s
+vector 16 Case3Scenario.networkNode2.trafficExternalSource packetLenVector ETV
+vector 17 Case3Scenario.networkNode2.trafficRoutingModule[0] gateIDVector ETV
+vector 18 Case3Scenario.networkNode2.trafficRoutingModule[0] randomNumberVector ETV
+vector 19 Case3Scenario.networkNode2.trafficMuxModule[1] queueingTime:vector ETV
+attr interpolationmode none
+attr title "queueing time at dequeue, vector"
+attr unit s
+vector 20 Case3Scenario.networkNode1.trafficMuxModule[1] queueingTime:vector ETV
+attr interpolationmode none
+attr title "queueing time at dequeue, vector"
+attr unit s
+vector 21 Case3Scenario.networkNode2.trafficRoutingModule[1] gateIDVector ETV
+vector 22 Case3Scenario.networkNode2.trafficRoutingModule[1] randomNumberVector ETV
+vector 23 Case3Scenario.networkNode2.trafficMuxModule[0] queueingTime:vector ETV
+attr interpolationmode none
+attr title "queueing time at dequeue, vector"
+attr unit s
+vector 24 Case3Scenario.networkNode5.trafficExternalSource packetLenVector ETV
+vector 25 Case3Scenario.networkNode5.trafficRoutingModule[0] gateIDVector ETV
+vector 26 Case3Scenario.networkNode5.trafficRoutingModule[0] randomNumberVector ETV
+vector 27 Case3Scenario.networkNode5.trafficMuxModule[0] queueingTime:vector ETV
+attr interpolationmode none
+attr title "queueing time at dequeue, vector"
+attr unit s
+vector 28 Case3Scenario.networkNode2.trafficRoutingModule[2] gateIDVector ETV
+vector 29 Case3Scenario.networkNode2.trafficRoutingModule[2] randomNumberVector ETV
+vector 30 Case3Scenario.toc3.tx2[0] circuit15Vector ETV
+vector 31 Case3Scenario.toc3.tx2[0] circuit52Vector ETV
+vector 32 Case3Scenario.toc3.tx2[0] circuit24Vector ETV
+vector 33 Case3Scenario.toc3.tx2[0] circuit1524Vector ETV
+vector 34 Case3Scenario.toc4.tx2[1] circuit15Vector ETV
+vector 35 Case3Scenario.toc4.tx2[1] circuit52Vector ETV
+vector 36 Case3Scenario.toc4.tx2[1] circuit24Vector ETV
+vector 37 Case3Scenario.toc4.tx2[1] circuit1524Vector ETV
+0	4293 838876 0 620051 0 9221705.349712772408 18447 0.030637739491054 4290.713440668 9222799.1552623 9205327987.2456
+1	843169 8 0 0 0 0 1 0 0 0 0
+2	843177 8 0 0 0 0 1 0 0 0 0
+3	843185 838006 0 620073 0 9222104.93656828522 18429 0.052462787761685 4967.5795253314 9223294.2987663 9223909227.3537
+4	1681191 8 0 0 0 0 1 0 0 0 0
+5	1681199 8 0 0 0 0 1 0 0 0 0
+6	1681207 828744 0 620103 0 9222546.433973715288 18221 0.00087828547645971 5396.3833394717 9223377.4871168 9432370440.5358
+7	2509951 8 0 0 0 0 1 0 0 0 0
+8	2509959 8 0 0 0 0 1 0 0 0 0
+9	2509967 838902 1 620051 288.625909974639 9221705.349712772408 18446 0.034870961190052 10517.13825579 18468012.688747 36760797567.696
+10	3348869 601112 2 620052 288.625909974639 9221705.349712772408 18446 0 1 13847 13847
+11	3949981 877759 2 620052 288.625909974639 9221705.349712772408 18446 5.9345533291304e-06 0.99997796416123 9272.7579244617 6209.6967316465
+12	4827740 149768 3 620053 288.625909974639 9221705.349712772408 4599 0 0 0 0
+13	4977508 149769 7 620057 288.625918974639 9221705.351085772408 4599 0 1 2308 2308
+14	5127277 218799 7 620057 288.625918974639 9221705.351085772408 4599 6.5429483434446e-05 0.99974368088499 2293.2688037595 1533.2369684846
+15	5346076 370551 8 620083 288.625918974639 9222156.053871864026 11371 0 0 0 0
+16	5716627 856440 15 620073 410.471592231018 9222104.93656828522 18428 0.02186952518285 9518.0319333937 18580431.657839 37530516411.834
+17	6573067 600470 16 620074 410.471592231018 9222104.93656828522 18428 0 1 12262 12262
+18	7173537 876955 16 620074 410.471592231018 9222104.93656828522 18428 0.00011099432027733 0.99999562046307 9203.3313318503 6155.2982472352
+19	8050492 950943 17 620096 410.471592231018 9222301.642230323607 29185 0 0 0 0
+20	9001435 451344 25 620023 583.101023815122 9221330.830202051155 13847 0 0 0 0
+21	9452779 451344 29 620027 583.103011815122 9221330.830647051155 13847 0 1 9264 9264
+22	9904123 659044 29 620027 583.103011815122 9221330.830647051155 13847 4.3210660144852e-05 0.99993076939235 6903.4690814571 4582.2548391628
+23	10563167 473878 80 620075 1698.704813794193 9222104.93656828522 14537 0 0 0 0
+24	11037045 846902 87 620103 1930.759992735598 9222546.433973715288 18220 0.066979530744715 11319.886220979 18279236.613383 36844127614.632
+25	11883947 593788 88 620090 1930.759992735598 9222301.639888323607 18219 0 1 9063 9063
+26	12477735 867047 88 620090 1930.759992735598 9222301.639888323607 18219 1.8663456412784e-05 0.9999989426499 9060.1214975673 6026.9948021178
+27	13344782 373006 124 620091 2402.809960326562 9222301.639888323607 11447 0 0 0 0
+28	13717788 373006 129 620095 2402.810963326562 9222301.642230323607 11447 0 1 7659 7659
+29	14090794 544716 129 620095 2402.810963326562 9222301.642230323607 11447 4.6500304211116e-05 0.99998934297418 5736.4277998746 3838.9687201447
+30	14635510 59921 135 619699 2402.811966326562 9214620.343707023016 1523 0 0.01007 1.569912 0.00326666466
+31	14695431 59921 135 619699 2402.811966326562 9214620.343707023016 1523 0 0.01007 1.569912 0.00326666466
+32	14755352 59921 135 619699 2402.811966326562 9214620.343707023016 1523 0 0.01007 1.569912 0.00326666466
+33	14815273 60042 135 619699 2402.811966326562 9214620.343707023016 1523 0 0.03021 4.709736 0.02939998194
+34	14875315 30231 961 619117 18167.026524994071 9205968.646766806106 768 0 0.008396 0.773363 0.001547384273
+35	14905546 30231 961 619117 18167.026524994071 9205968.646766806106 768 0 0.008396 0.773363 0.001547384273
+36	14935777 30231 961 619117 18167.026524994071 9205968.646766806106 768 0 0.008396 0.773363 0.001547384273
+37	14966008 30289 961 619117 18167.026524994071 9205968.646766806106 768 0 0.025188 2.320089 0.013926458457
+

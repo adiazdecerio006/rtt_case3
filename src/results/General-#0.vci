@@ -1,0 +1,57 @@
+file 4372373 1611444189                                         
+version 2
+run General-0-20210124-00:22:46-39492
+attr configname General
+attr datetime 20210124-00:22:46
+attr experiment General
+attr inifile goBackNScenario.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network GoBackNScenario
+attr processid 39492
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+vector 0 GoBackNScenario.trafficExternalSource randomDepartureTimeVector ETV
+vector 1 GoBackNScenario.trafficExternalSource2 randomDepartureTimeVector ETV
+vector 2 GoBackNScenario.trafficMuxModule qlen:vector ETV
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+vector 3 GoBackNScenario.trafficMuxModule2 qlen:vector ETV
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+vector 4 GoBackNScenario.trafficMuxModule3 qlen:vector ETV
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+vector 5 GoBackNScenario.trafficExternalSource2 packetLenVector ETV
+vector 6 GoBackNScenario.trafficRoutingModule2 gateIDVector ETV
+vector 7 GoBackNScenario.trafficRoutingModule2 randomNumberVector ETV
+vector 8 GoBackNScenario.trafficMuxModule queueingTime:vector ETV
+attr interpolationmode none
+attr title "queueing time at dequeue, vector"
+attr unit s
+vector 9 GoBackNScenario.trafficExternalSource packetLenVector ETV
+vector 10 GoBackNScenario.trafficRoutingModule gateIDVector ETV
+vector 11 GoBackNScenario.trafficRoutingModule randomNumberVector ETV
+vector 12 GoBackNScenario.trafficMuxModule2 queueingTime:vector ETV
+attr interpolationmode none
+attr title "queueing time at dequeue, vector"
+attr unit s
+0	1617 498328 0 206572 0 57817.64594121407 11524 0.00030276823941012 46.016243058528 57824.174564996 578978.573845
+1	499945 494297 0 206801 0 57819.141404710375 11433 5.7423977474154e-05 59.961894475487 57820.365174633 584945.60772503
+2	994242 124 0 136757 0 38288.721335788536 5 0 1 2 2
+3	994366 242 0 158419 0 44406.3242643657 9 0 1 4 4
+4	994608 8 0 0 0 0 1 0 0 0 0
+5	994616 491991 1 206801 4.578635086359 57819.141404710375 11432 0.017606261299162 12664.185455674 11505889.88393 23315581776.812
+6	1486607 333224 2 206802 4.578635086359 57819.141404710375 11432 0 1 7609 7609
+7	1819831 504688 2 206802 4.578635086359 57819.141404710375 11432 0.00050469704536124 0.99999570612455 5681.1280623766 3767.1493114323
+8	2324519 227736 3 206565 4.578635086359 57817.293333435367 7813 0 0.000771945529 0.001167614711 7.5245400132764e-07
+9	2552255 495894 10 206572 8.219242782065 57817.64594121407 11523 0.13955747259874 8874.1129444148 11526536.586026 23020588792.181
+10	3048149 347404 11 206573 8.219242782065 57817.64594121407 11523 0 1 7533 7533
+11	3395553 520235 11 206573 8.219242782065 57817.64594121407 11523 0.0001713792768617 0.99993784143172 5667.045894221 3745.1137021458
+12	3915788 456584 12 206803 8.219242782065 57819.141404710375 15142 0 0.001466442817 0.00258946922 2.849864895117e-06
+
